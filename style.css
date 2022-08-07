@@ -37,7 +37,7 @@
 }
 
 .profile > img {
-    margin-top: 15px;
+    margin-top: 10px;
     align-items: center;
     justify-items: center;
     height: 150px;
@@ -52,7 +52,7 @@
     line-height: 1.5;
     font-size:large;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 25px;
     text-overflow: ellipsis;
     text-align: center;
     overflow: hidden;
@@ -85,7 +85,12 @@
     font-weight: inherit;
     font-size: inherit;
     font-family: 'Signika Negative', sans-serif;
-}   
+}
+
+.button > a:hover {
+    background-color: #487944;
+    border: 3px solid #487944;
+}
 
 .footer {
     display: flex;
